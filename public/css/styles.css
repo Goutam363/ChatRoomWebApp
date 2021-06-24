@@ -158,6 +158,7 @@ button:disabled {
 
 .compose button {
     font-size: 14px;
+    border-radius: 30px;
 }
 
 /* Chat Sidebar Styles */

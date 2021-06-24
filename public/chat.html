@@ -7,6 +7,7 @@
     <title>Chat App</title>
     <link rel="icon" href="/img/favicon.png">
     <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/91d01b5d54.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="chat">
@@ -17,9 +18,9 @@
             <div class="compose">
                 <form id="message-form">
                     <input name="message" placeholder="Message" required autocomplete="off">
-                    <button>Send</button>
+                    <button><i class="far fa-paper-plane"></i> Send</button>
                 </form>
-                <button id="send-location">Send Location</button>
+                <button id="send-location">Send Location <i class="fas fa-map-marker-alt"></i></button>
             </div>
         </div>
     </div>
@@ -43,8 +44,8 @@
         </div>
     </script>
     <script id="sidebar-template" type="text/html">
-        <h2 class="room-title">{{room}}</h2>
-        <h3 class="list-title">Users</h3>
+        <h2 class="room-title"><i class="far fa-comments"></i> {{room}}</h2>
+        <h3 class="list-title"><i class="fas fa-users"></i> Users</h3>
         <ul class="users">
             {{#users}}
                 <li>{{username}}</li>
