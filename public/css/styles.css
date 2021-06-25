@@ -67,15 +67,37 @@ button:disabled {
     align-items: center;
 }
 
+#copyright{
+    color: black;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer{
+    color: #888888;
+    background-color: #333744;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+footer a{
+    color: #888888;
+    text-decoration: none;
+}
+
 .centered-form__box {
     box-shadow: 0px 0px 17px 1px #1D1F26;
     background: #F7F7FA;
     padding: 24px;
     width: 250px;
+    border-radius: 30px;
 }
 
 .centered-form button {
     width: 100%;
+    border-radius: 30px;
 }
 
 .centered-form input {

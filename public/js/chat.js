@@ -112,12 +112,3 @@ socket.emit('join',{username,room},(error)=>{
         location.href='/'
     }
 })
-
-// socket.on('countUpdated',(count)=>{
-//     console.log('The count has been updated ',count)
-// })
-
-// document.querySelector('#increment').addEventListener('click',()=>{
-//     console.log('Clicked')
-//     socket.emit('increment')
-// })

@@ -51,29 +51,3 @@ module.exports={
     getUser,
     getUsersInRoom
 }
-
-// addUser({
-//     id:22,
-//     username:'goutam363',
-//     room:'kolkata'
-// })
-// addUser({
-//     id:23,
-//     username:'neon',
-//     room:'kolkata'
-// })
-// addUser({
-//     id:24,
-//     username:'alpha',
-//     room:'bombay'
-// })
-// console.log(users)
-
-// const user=getUser(23)
-// console.log(user)
-
-// const userList=getUsersInRoom('kolkata')
-// console.log(userList)
-// const removedUser=removeUser(22)
-// console.log(removedUser)
-// console.log(users)
